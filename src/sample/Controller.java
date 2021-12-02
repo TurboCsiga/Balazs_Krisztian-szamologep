@@ -73,7 +73,7 @@ public class Controller {
         else {
             double num1 = txtFirst.getValue();
             double num2 = txtSecond.getValue();
-            lblNum.setText(String.valueOf(num1 / num2));
+            lblNum.setText(String.valueOf(num1 % num2));
         }
     }
 }
